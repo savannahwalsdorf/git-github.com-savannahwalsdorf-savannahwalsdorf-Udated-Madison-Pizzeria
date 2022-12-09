@@ -21,7 +21,7 @@ namespace WebApplication2
         {
             if (Small.Checked)
             {
-                this.ingredient.Size = Small.Value;
+                this.ingredient.Size = Small.Value; //shows that the value is small
                 this.ingredient.Total_Price = this.ingredient.Size_Small;
             }else if (Medium.Checked)
             {
