@@ -13,36 +13,36 @@
 
     
     <h2>Crust Size</h2>
-    <p><input id="Thin" name="crust" type="radio" runat="server"/>  Thin</p>
+    <p><input id="Thin" name="crust" type="radio" runat="server"/>  Thin </p>
     <p><input id="Thick" name="crust" type="radio" runat="server"/>  Thick</p>
    
     
     <h2>Sauce</h2>
     <p><input id="Barbeque" name="sauce" type="radio" runat="server" />  Barbeque</p>
-    <p><input id="Redsauce" name="sauce" type="radio" runat="server"/>  Marinara Sauce</p>
-    <p><input id="Whitesauce" name="sauce" type="radio" runat="server" />  Alfredo Sauce</p>
+    <p><input id="Marinara" name="sauce" type="radio" runat="server"/>  Marinara Sauce</p>
+    <p><input id="Alfredo" name="sauce" type="radio" runat="server" />  Alfredo Sauce</p>
     <p><input id="Ranch" name="sauce" type="radio"  runat="server"/>  Ranch</p>
    
     <h2>Cheese</h2>
-    <p><input id="Mozzerella" type="radio" runat="server"/>  Mozzerela</p>
-    <p><input id="Cheddar" type="radio" runat="server"/>  Cheddar</p>
+    <p><input id="Mozzerella" name="cheese" type="radio" runat="server"/>  Mozzerela</p>
+    <p><input id="Cheddar" name="cheese" type="radio" runat="server"/>  Cheddar</p>
     
     
     <h2>Toppings</h2>
-    <p><input id="Pepperoni" name="toppings" type="checkbox" runat="server" />  Pepperoni</p>				
-    <p><input id="Pineapple" type="checkbox" />  Pineapple</p>
-    <p><input id="Sausage" name="toppings" type="checkbox" />  Sausage</p>					
-    <p><input id="Spinach" name="toppings" type="checkbox" />  Spinach</p>
-    <p><input id="CanadianBacon" name="toppings" type="checkbox" />  Canadian Bacon</p>		
-    <p><input id="Onions" name="toppings" type="checkbox" />  Onions</p>
-    <p><input id="Bacon" name="toppings" type="checkbox" />  Bacon</p>                      
-    <p><input id="Peppers" name="toppings" type="checkbox" />  Green Peppers</p>
-    <p><input id="Chicken" name="toppings" type="checkbox" />  Chicken</p>                  
-    <p><input id="BlackOlives" name="toppings" type="checkbox" />  Black Olives</p>
-    <p><input id="Pork" name="toppings" type="checkbox" />  Pork</p>                        
-    <p><input id="Jalopenos" name="toppings" type="checkbox" />  Jalopenos</p>
-    <p><input id="Ham" name="toppings" type="checkbox" />  Ham</p>                          
-    <p><input id="Mushrooms" name="toppings" type="checkbox" />  Mushrooms</p>
+    <p><input id="Pepperoni" name="topping" type="checkbox" runat="server" />  Pepperoni</p>				
+    <p><input id="Pineapple" name="topping" type="checkbox" runat="server" />  Pineapple</p>
+    <p><input id="Sausage" name="topping" type="checkbox" runat="server" />  Sausage</p>					
+    <p><input id="Spinach" name="topping" type="checkbox" runat="server" />  Spinach</p>
+    <p><input id="CanadianBacon" name="topping" type="checkbox" runat="server" />  Canadian Bacon</p>		
+    <p><input id="Onions" name="topping" type="checkbox" runat="server" />  Onions</p>
+    <p><input id="Bacon" name="topping" type="checkbox" runat="server"/>  Bacon</p>                      
+    <p><input id="Peppers" name="topping" type="checkbox" runat="server" />  Green Peppers</p>
+    <p><input id="Chicken" name="topping" type="checkbox" runat="server" />  Chicken</p>                  
+    <p><input id="BlackOlives" name="topping" type="checkbox" runat="server" />  Black Olives</p>
+    <p><input id="Pork" name="topping" type="checkbox" runat="server"/>  Pork</p>                        
+    <p><input id="Jalopenos" name="topping" type="checkbox" runat="server"/>  Jalopenos</p>
+    <p><input id="Ham" name="topping" type="checkbox" runat="server"/>  Ham</p>                          
+    <p><input id="Mushrooms" name="topping" type="checkbox" runat="server"/>  Mushrooms</p>
 
     
     <asp:Button Text="Submit" runat ="server" OnClick="SubmitOrderButton" />
