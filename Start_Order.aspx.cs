@@ -23,7 +23,7 @@ namespace WebApplication2
             {
                 this.ingredient.Size = Small.Value; //shows that the value is small
                 this.ingredient.Total_Price = this.ingredient.Size_Small;
-            } else if (Medium.Checked)
+            }else if (Medium.Checked)
             {
                 this.ingredient.Size = Medium.Value;
                 this.ingredient.Total_Price = this.ingredient.Size_Medium;
@@ -33,15 +33,10 @@ namespace WebApplication2
                 this.ingredient.Size = Large.Value;
                 this.ingredient.Total_Price = this.ingredient.Size_Large;
             }
-            else if (Crust.checked)
-            {
-
-                }
-        }
 
             string _params = string.Format("Price={0}&Size={1}", this.ingredient.Total_Price, this.ingredient.Size);
-            string _param = string.Format("Crust={1}", this.ingredient.Crust);
-            Response.Redirect(string.Format("Cart.aspx?{0}", _params, _param));
+           
+            Response.Redirect(string.Format("Cart.aspx?{0}", _params));
         }
 
        
