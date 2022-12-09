@@ -6,14 +6,16 @@
         <h1 class="text-dark font-custom"><%= PageTitle %></h1>
     </div>
 
-    <h1>Your Order: </h1>
-    <h3>Total Price: $<%= Price %></h3>
-    <p>Size: <%= Size %></p>
-    <p>Crust: <%= Crust %></p>
-    <p>Sauce: <%= Sauce %></p>
-    <p>Cheese: <%= Cheese %></p>
-    <p>Topping: <%= Topping %></p>
-    <p>Specialty: <%= Specialty %></p>
-    <asp:Button ID="OrderMore" Text="Order More" runat="server" PostBackUrl="~/Start_Order.aspx"/>
-    <asp:Button ID="PlaceOrder" Text="Place Order!" runat="server" PostBackUrl="~/Payment.aspx"/>
+    <div class="content-custom">
+        <h1>Your Order</h1>
+        <p>Size: <%= Size %></p>
+        <p>Crust: <%= Crust %></p>
+        <p>Sauce: <%= Sauce %></p>
+        <p>Cheese: <%= Cheese %></p>
+        <p>Topping: <%= Topping %></p>
+        <p>Specialty: <%= Specialty %></p>
+        <h2>Total Price: $<%= Price %></h2>
+        <asp:Button ID="OrderMore" Text="Order More" runat="server" PostBackUrl="~/Start_Order.aspx"/>
+        <asp:Button ID="PlaceOrder" Text="Place Order!" runat="server" PostBackUrl="~/Payment.aspx"/>
+    </div>
 </asp:Content>
