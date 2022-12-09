@@ -8,7 +8,8 @@
     <p>Crust: <%= Crust %></p>
     <p>Sauce: <%= Sauce %></p>
     <p>Cheese: <%= Cheese %></p>
-    <p>Toppings: <%= Toppings %></p>
+    <p>Topping: <%= Topping %></p>
+    <p>Specialty: <%= Specialty %></p>
     <asp:Button ID="OrderMore" Text="Order More" runat="server" PostBackUrl="~/Start_Order.aspx"/>
     <asp:Button ID="PlaceOrder" Text="Place Order!" runat="server" PostBackUrl="~/Payment.aspx"/>
 </asp:Content>

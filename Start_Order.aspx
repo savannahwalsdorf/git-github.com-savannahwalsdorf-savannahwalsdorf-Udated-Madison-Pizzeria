@@ -1,4 +1,4 @@
-﻿<%@ Page Title="Start Order" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="Start_Order.aspx.cs" Inherits="WebApplication2.Start_Order" %>
+﻿<%@ Page Title="Start Order" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="Start_Order.aspx.cs" Inherits="WebApplication2.Start_Order"%>
 
 <asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server">
     <h2>Start Order</h2>
@@ -29,22 +29,28 @@
     
     
     <h2>Toppings</h2>
-    <p><input id="Pepperoni" name="topping" type="checkbox" runat="server" />  Pepperoni</p>				
-    <p><input id="Pineapple" name="topping" type="checkbox" runat="server" />  Pineapple</p>
-    <p><input id="Sausage" name="topping" type="checkbox" runat="server" />  Sausage</p>					
-    <p><input id="Spinach" name="topping" type="checkbox" runat="server" />  Spinach</p>
-    <p><input id="CanadianBacon" name="topping" type="checkbox" runat="server" />  Canadian Bacon</p>		
-    <p><input id="Onions" name="topping" type="checkbox" runat="server" />  Onions</p>
-    <p><input id="Bacon" name="topping" type="checkbox" runat="server"/>  Bacon</p>                      
-    <p><input id="Peppers" name="topping" type="checkbox" runat="server" />  Green Peppers</p>
-    <p><input id="Chicken" name="topping" type="checkbox" runat="server" />  Chicken</p>                  
-    <p><input id="BlackOlives" name="topping" type="checkbox" runat="server" />  Black Olives</p>
-    <p><input id="Pork" name="topping" type="checkbox" runat="server"/>  Pork</p>                        
-    <p><input id="Jalopenos" name="topping" type="checkbox" runat="server"/>  Jalopenos</p>
-    <p><input id="Ham" name="topping" type="checkbox" runat="server"/>  Ham</p>                          
-    <p><input id="Mushrooms" name="topping" type="checkbox" runat="server"/>  Mushrooms</p>
+    <p><input id="Pepperoni" name="topping" type="radio" runat="server" />  Pepperoni</p>				
+    <p><input id="Pineapple" name="topping" type="radio" runat="server" />  Pineapple</p>
+    <p><input id="Sausage" name="topping" type="radio" runat="server" />  Sausage</p>					
+    <p><input id="Spinach" name="topping" type="radio" runat="server" />  Spinach</p>
+    <p><input id="CanadianBacon" name="topping" type="radio" runat="server" />  Canadian Bacon</p>		
+    <p><input id="Onions" name="topping" type="radio" runat="server" />  Onions</p>
+    <p><input id="Bacon" name="topping" type="radio" runat="server"/>  Bacon</p>                      
+    <p><input id="Peppers" name="topping" type="radio" runat="server" />  Green Peppers</p>
+    <p><input id="Chicken" name="topping" type="radio" runat="server" />  Chicken</p>                  
+    <p><input id="BlackOlives" name="topping" type="radio" runat="server" />  Black Olives</p>
+    <p><input id="Pork" name="topping" type="radio" runat="server"/>  Pork</p>                        
+    <p><input id="Jalopenos" name="topping" type="radio" runat="server"/>  Jalopenos</p>
+    <p><input id="Ham" name="topping" type="radio" runat="server"/>  Ham</p>                          
+    <p><input id="Mushrooms" name="topping" type="radio" runat="server"/>  Mushrooms</p>
 
-   
+    <h2>Specialty Pizzas</h2>
+    <p><input id="ChickenAlfredo" name="specialty" type="radio" runat="server" />  Chicken Alfredo Pizza: Alfredo Sauce, mozzerela cheese, chicken, onions</p>		
+    <p><input id="BarbequeChicken" name="specialty" type="radio" runat="server" />  Barbeque Chicken Pizza: Barbeque Sauce, mozzerela cheese, chicken</p>
+    <p><input id="MeatLovers" name="specialty" type="radio" runat="server" />  Meat Lovers Pizza: Marinara Sauce, mozzerela cheese, bacon, sausage, pepperoni, and ham</p>
+    <p><input id="ChickenBaconRanch" name="specialty" type="radio" runat="server" />  Chicken Bacon Ranch Pizza: Ranch Sauce, mozzerela cheese, chicken, and bacon</p>
+    <p><input id="Hawaiian" name="specialty" type="radio" runat="server" />  Hawaiian Pizza: Marinara Sauce, mozzerela cheese, pineapple, and ham</p>
+    <p><input id="TheHouse" name="specialty" type="radio" runat="server" />  The House Pizza: Marinara Sauce, mozzerela cheese, sausage, pepperoni, green peppers, black olives, and onions</p>
 
     
     <asp:Button Text="Submit" runat ="server" OnClick="SubmitOrderButton" />

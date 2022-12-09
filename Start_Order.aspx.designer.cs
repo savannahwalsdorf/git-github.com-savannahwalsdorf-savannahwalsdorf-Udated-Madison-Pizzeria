@@ -120,7 +120,7 @@ namespace WebApplication2
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlInputCheckBox Pepperoni;
+        protected global::System.Web.UI.HtmlControls.HtmlInputRadioButton Pepperoni;
 
         /// <summary>
         /// Pineapple control.
@@ -129,7 +129,7 @@ namespace WebApplication2
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlInputCheckBox Pineapple;
+        protected global::System.Web.UI.HtmlControls.HtmlInputRadioButton Pineapple;
 
         /// <summary>
         /// Sausage control.
@@ -138,7 +138,7 @@ namespace WebApplication2
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlInputCheckBox Sausage;
+        protected global::System.Web.UI.HtmlControls.HtmlInputRadioButton Sausage;
 
         /// <summary>
         /// Spinach control.
@@ -147,7 +147,7 @@ namespace WebApplication2
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlInputCheckBox Spinach;
+        protected global::System.Web.UI.HtmlControls.HtmlInputRadioButton Spinach;
 
         /// <summary>
         /// CanadianBacon control.
@@ -156,7 +156,7 @@ namespace WebApplication2
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlInputCheckBox CanadianBacon;
+        protected global::System.Web.UI.HtmlControls.HtmlInputRadioButton CanadianBacon;
 
         /// <summary>
         /// Onions control.
@@ -165,7 +165,7 @@ namespace WebApplication2
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlInputCheckBox Onions;
+        protected global::System.Web.UI.HtmlControls.HtmlInputRadioButton Onions;
 
         /// <summary>
         /// Bacon control.
@@ -174,7 +174,7 @@ namespace WebApplication2
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlInputCheckBox Bacon;
+        protected global::System.Web.UI.HtmlControls.HtmlInputRadioButton Bacon;
 
         /// <summary>
         /// Peppers control.
@@ -183,7 +183,7 @@ namespace WebApplication2
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlInputCheckBox Peppers;
+        protected global::System.Web.UI.HtmlControls.HtmlInputRadioButton Peppers;
 
         /// <summary>
         /// Chicken control.
@@ -192,7 +192,7 @@ namespace WebApplication2
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlInputCheckBox Chicken;
+        protected global::System.Web.UI.HtmlControls.HtmlInputRadioButton Chicken;
 
         /// <summary>
         /// BlackOlives control.
@@ -201,7 +201,7 @@ namespace WebApplication2
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlInputCheckBox BlackOlives;
+        protected global::System.Web.UI.HtmlControls.HtmlInputRadioButton BlackOlives;
 
         /// <summary>
         /// Pork control.
@@ -210,7 +210,7 @@ namespace WebApplication2
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlInputCheckBox Pork;
+        protected global::System.Web.UI.HtmlControls.HtmlInputRadioButton Pork;
 
         /// <summary>
         /// Jalopenos control.
@@ -219,7 +219,7 @@ namespace WebApplication2
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlInputCheckBox Jalopenos;
+        protected global::System.Web.UI.HtmlControls.HtmlInputRadioButton Jalopenos;
 
         /// <summary>
         /// Ham control.
@@ -228,7 +228,7 @@ namespace WebApplication2
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlInputCheckBox Ham;
+        protected global::System.Web.UI.HtmlControls.HtmlInputRadioButton Ham;
 
         /// <summary>
         /// Mushrooms control.
@@ -237,6 +237,60 @@ namespace WebApplication2
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlInputCheckBox Mushrooms;
+        protected global::System.Web.UI.HtmlControls.HtmlInputRadioButton Mushrooms;
+
+        /// <summary>
+        /// ChickenAlfredo control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.HtmlControls.HtmlInputRadioButton ChickenAlfredo;
+
+        /// <summary>
+        /// BarbequeChicken control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.HtmlControls.HtmlInputRadioButton BarbequeChicken;
+
+        /// <summary>
+        /// MeatLovers control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.HtmlControls.HtmlInputRadioButton MeatLovers;
+
+        /// <summary>
+        /// ChickenBaconRanch control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.HtmlControls.HtmlInputRadioButton ChickenBaconRanch;
+
+        /// <summary>
+        /// Hawaiian control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.HtmlControls.HtmlInputRadioButton Hawaiian;
+
+        /// <summary>
+        /// TheHouse control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.HtmlControls.HtmlInputRadioButton TheHouse;
     }
 }

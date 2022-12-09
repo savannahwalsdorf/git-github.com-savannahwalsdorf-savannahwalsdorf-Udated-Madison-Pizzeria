@@ -21,9 +21,7 @@ public class Ingredient
 
         public string Topping { get; set; }
 
-        public bool Pepperoni { get; set; }
-      
-        
+        public string Specialty { get; set; }
        
         public float Cost { get; set; }
 
