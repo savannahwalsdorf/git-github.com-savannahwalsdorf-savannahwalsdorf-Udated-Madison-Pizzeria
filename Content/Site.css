@@ -41,3 +41,9 @@ textarea {
     margin: 0px auto !important; 
     display: block;
 }
+
+.content-custom {
+    max-width: 800px;
+    margin: auto;
+    text-align: center;
+}

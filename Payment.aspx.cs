@@ -9,6 +9,7 @@ namespace WebApplication2
 {
     public partial class Payment : Page
     {
+        public string PageTitle => "Payment";
         protected void Page_Load(object sender, EventArgs e)
         {
 
