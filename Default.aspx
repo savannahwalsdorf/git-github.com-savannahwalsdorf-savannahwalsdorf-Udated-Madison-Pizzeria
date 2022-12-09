@@ -4,7 +4,7 @@
 
     <div class="text-center">
         <br />
-        <h1 class="text-dark"><%= PageTitle %></h1>
+        <h1 class="text-dark font-custom"><%= PageTitle %></h1>
 
         <br />
         <p class="text-dark">Start your pizza journey with MadisonPizzera today!</p>

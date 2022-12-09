@@ -4,7 +4,7 @@
 <asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server">
     <div class="text-center">
         <br />
-        <h1 style="font-family: 'Felix Titling'" class="text-dark"><%= PageTitle %></h1>
+        <h1 class="text-dark font-custom"><%= PageTitle %></h1>
 	</div>
 
 	<div class="content-custom">

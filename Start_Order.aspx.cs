@@ -10,6 +10,7 @@ namespace WebApplication2
     public partial class Start_Order : Page
     {
 
+        public string PageTitle => "Start Order";
         public Ingredient ingredient { get; set; }
         protected void Page_Load(object sender, EventArgs e)
         {

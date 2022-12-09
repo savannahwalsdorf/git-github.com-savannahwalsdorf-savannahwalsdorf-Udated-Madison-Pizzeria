@@ -3,7 +3,7 @@
 <asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server">
     <div class="text-center">
         <br />
-        <h1 class="text-dark"><%= PageTitle %></h1>
+        <h1 class="text-dark font-custom"><%= PageTitle %></h1>
     </div>
 
     <h1>Your Order: </h1>

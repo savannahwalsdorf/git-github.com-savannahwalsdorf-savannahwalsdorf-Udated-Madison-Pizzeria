@@ -1,7 +1,10 @@
 ﻿<%@ Page Title="Start Order" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="Start_Order.aspx.cs" Inherits="WebApplication2.Start_Order"%>
 
 <asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server">
-    <h2>Start Order</h2>
+    <div class="text-center">
+        <br />
+        <h1 class="text-dark font-custom"><%= PageTitle %></h1>
+    </div>
    
     <br />
     <h2>Pizza Size</h2>
