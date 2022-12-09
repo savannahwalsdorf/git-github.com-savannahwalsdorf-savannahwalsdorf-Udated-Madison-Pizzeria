@@ -70,10 +70,10 @@ namespace WebApplication2
             {
                 this.ingredient.Cheese = Mozzerella.Value;
             }
+           
 
 
-
-            string _params = string.Format("Price={0}&Size={1}&Crust={2}&Sauce={3}&Cheese={4}&Topping={5}", this.ingredient.Total_Price, this.ingredient.Size, this.ingredient.Crust,
+            string _params = string.Format("Price={0}&Size={1}&Crust={2}&Sauce={3}&Cheese={4}", this.ingredient.Total_Price, this.ingredient.Size, this.ingredient.Crust,
                 this.ingredient.Sauce, this.ingredient.Cheese);
             
             Response.Redirect(string.Format("Cart.aspx?{0}", _params));
