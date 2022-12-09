@@ -11,12 +11,10 @@ public class Ingredient
 
         public double Size_Medium => 13.50;
 
-        
         public double Size_Large => 14.50;
 
 
         public string Crust { get; set; }
-
 
         public string Sauce { get; set; }
 
