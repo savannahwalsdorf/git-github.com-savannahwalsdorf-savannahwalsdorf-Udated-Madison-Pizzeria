@@ -12,7 +12,7 @@ namespace WebApplication2
         public string PageTitle => "Madison Pizzeria";
         protected void Page_Load(object sender, EventArgs e)
         {
-
+            
         }
 
         protected void StartOrderButton(object sender, EventArgs e)

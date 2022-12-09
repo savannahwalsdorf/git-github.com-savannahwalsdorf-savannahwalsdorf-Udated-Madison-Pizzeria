@@ -3,16 +3,6 @@
 
 <asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server">
     <h2>Payment</h2>
-	<style>
-		#heading00 {
-			margin-left: 40px;
-		}
-
-		#heading01 {
-			margin-left: 80px;
-		}
-	</style>
-
 
     <br>
 		<p><b>Personal Information: </b></p>

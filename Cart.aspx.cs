@@ -9,6 +9,7 @@ namespace WebApplication2
 {
     public partial class Cart : Page
     {
+        public string PageTitle => "Cart";
         public string Price { get; set; }
         public string Size { get; set; }
 

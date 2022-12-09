@@ -45,5 +45,5 @@
     <p><input id="Mushrooms" name="toppings" type="checkbox" />  Mushrooms</p>
 
     
-    <asp:Button Text="Submit" runat ="server" OnClick="SubmitOrderButton" />
+    <asp:Button Text="Submit" runat ="server" OnClick="SubmitOrderButton" class="button-custom"/>
 </asp:Content>
