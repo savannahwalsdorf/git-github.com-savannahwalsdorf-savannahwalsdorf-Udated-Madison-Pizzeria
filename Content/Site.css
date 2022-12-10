@@ -64,6 +64,15 @@ textarea {
     text-align: center;
 }
 
+.set-flex {
+    display: flex !important;
+}
+
+.column-width {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
 .font-custom {
     font-family: "Felix Titling";
 }
