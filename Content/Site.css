@@ -36,11 +36,26 @@ textarea {
 }
 
 .button-custom {
-    background-color: gray;
+    background-color: gainsboro;
     border-radius: 10px;
-    margin: 0px auto !important; 
+    margin: 0px auto;
     display: block;
-    color: white;
+    color: #800000;
+    border-color: #800000;
+    width: 250px;
+    text-size-adjust: 130%;
+    font-weight: bold;
+}
+
+.cart-btn-custom {
+    background-color: gainsboro;
+    border-radius: 10px;
+    margin: 0px auto;
+    color: #800000;
+    border-color: #800000;
+    width: 150px;
+    text-size-adjust: 130%;
+    font-weight: bold;
 }
 
 .content-custom {

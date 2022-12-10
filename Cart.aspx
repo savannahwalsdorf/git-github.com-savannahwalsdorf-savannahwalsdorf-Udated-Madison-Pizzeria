@@ -15,7 +15,9 @@
         <p>Topping: <%= Topping %></p>
         <p>Specialty: <%= Specialty %></p>
         <h2>Total Price: $<%= Price %></h2>
-        <asp:Button ID="OrderMore" Text="Order More" runat="server" PostBackUrl="~/Start_Order.aspx"/>
-        <asp:Button ID="PlaceOrder" Text="Place Order!" runat="server" PostBackUrl="~/Payment.aspx"/>
+
+        <br />
+        <asp:Button ID="OrderMore" Text="Update Order" runat="server" PostBackUrl="~/Start_Order.aspx" class="cart-btn-custom"/>
+        <asp:Button ID="PlaceOrder" Text="Place Order!" runat="server" PostBackUrl="~/Payment.aspx" CssClass="cart-btn-custom"/>
     </div>
 </asp:Content>
