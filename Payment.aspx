@@ -56,7 +56,7 @@
 			</h5>
 			<!-- Customers enter in CVC code -->
 			<h5 style="margin-left: 40px;">
-				Card Number:
+				CVC Code:
 				<input type="text"
 					   name="cvcCode"
 					   pattern="[0-9]{2}"
