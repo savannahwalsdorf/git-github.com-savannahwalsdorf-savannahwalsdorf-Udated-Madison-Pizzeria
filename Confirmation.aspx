@@ -6,7 +6,7 @@
         <h1 class="text-dark font-custom"><%= PageTitle %></h1>
         <br />
         <br />
-        <p class="text-dark text-custom">Thank you for ordering from Madison Pizzeria!</p>
+        <p class="text-dark">Thank you for ordering from Madison Pizzeria!</p>
     </div>
 
     

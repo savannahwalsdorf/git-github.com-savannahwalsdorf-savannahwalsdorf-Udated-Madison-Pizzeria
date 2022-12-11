@@ -8,12 +8,12 @@
 
     <div class="content-custom">
         <h1>Your Order</h1>
-        <p class="text-custom">Size: <%= Size %></p>
-        <p class="text-custom">Crust: <%= Crust %></p>
-        <p class="text-custom">Sauce: <%= Sauce %></p>
-        <p class="text-custom">Cheese: <%= Cheese %></p>
-        <p class="text-custom">Topping: <%= Topping %></p>
-        <p class="text-custom">Specialty: <%= Specialty %></p>
+        <p>Size: <%= Size %></p>
+        <p>Crust: <%= Crust %></p>
+        <p>Sauce: <%= Sauce %></p>
+        <p>Cheese: <%= Cheese %></p>
+        <p>Topping: <%= Topping %></p>
+        <p>Specialty: <%= Specialty %></p>
         <h2>Total Price: $<%= Price %></h2>
 
         <br />

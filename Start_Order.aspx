@@ -52,7 +52,7 @@
         </div>
     
         <div class="column-width">
-            <h2>Specialty Pizzas</h2>
+            <h2 class="text-center">Specialty Pizzas</h2>
             <p><input id="ChickenAlfredo" name="specialty" type="radio" runat="server" />  Chicken Alfredo Pizza: Alfredo Sauce, mozzerela cheese, chicken, onions</p>		
             <p><input id="BarbequeChicken" name="specialty" type="radio" runat="server" />  Barbeque Chicken Pizza: Barbeque Sauce, mozzerela cheese, chicken</p>
             <p><input id="MeatLovers" name="specialty" type="radio" runat="server" />  Meat Lovers Pizza: Marinara Sauce, mozzerela cheese, bacon, sausage, pepperoni, and ham</p>

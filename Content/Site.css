@@ -70,13 +70,13 @@ textarea {
 
 .column-width {
     max-width: 600px;
-    margin: 0 auto;
+    margin: 0 auto 20px;
 }
 
 .font-custom {
     font-family: "Felix Titling";
 }
 
-.text-custom {
+p {
     font-size: 20px;
 }
