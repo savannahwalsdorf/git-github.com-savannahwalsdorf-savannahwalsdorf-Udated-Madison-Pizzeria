@@ -26,7 +26,7 @@
 				Email Address:
 				<input type="text"
 					   name="email"
-					   pattern="[a-z0-9._%+-]+@@[a-z0-9.-]+\.[a-z]{2,8}$"
+					   pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,8}$"
 					   title="Email Format: abc123@abc123.abc"
 					   required />
 			</h5>
@@ -52,6 +52,14 @@
 					   name="cardNumber"
 					   pattern="[0-9]{8}"
 					   title="Card Number Format: 8 digits (12345678)"
+					   required />
+			</h5>
+			<h5 style="margin-left: 40px;">
+				CVC Code:
+				<input type="text"
+					   name="cvcCode"
+					   pattern="[0-9]{2}"
+					   title="CVC Code Format: 2 digits (12)"
 					   required />
 			</h5>
 
