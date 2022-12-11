@@ -16,8 +16,8 @@
 				Name On Order:
 				<input type="text"
 					   name="name"
-					   pattern="[A-Za-z]{1-30}"
-					   title="Name Format: 1-30 Characters (John, John Doe)"
+					   pattern="[A-Za-z0-9]{1-30}"
+					   title="Name Format: 1-30 Characters (John, John Doe, John1)"
 					   required />
 			</h5>
 
