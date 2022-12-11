@@ -56,7 +56,7 @@
 			</h5>
 			<!-- Customers enter in CVC code -->
 			<h5 style="margin-left: 40px;">
-				Card Number:
+				CVC Code:
 				<input type="text"
 					   name="cvcCode"
 					   pattern="[0-9]{2}"
@@ -93,8 +93,8 @@
 				Year:
 				<input type="text"
 					   name="expYear"
-					   pattern="[2022-2030]{4}"
-					   title="Expiration Date Format: 4 Digits (2022, 2024)"
+					   pattern="\d{4}"
+					   title="Expiration Date Format: 4 Digits (2023, 2030)"
 					   required />
 			</h5><br>
 
