@@ -76,3 +76,7 @@ textarea {
 .font-custom {
     font-family: "Felix Titling";
 }
+
+.text-custom {
+    font-size: 20px;
+}

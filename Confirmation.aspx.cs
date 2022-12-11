@@ -9,7 +9,7 @@ namespace WebApplication2
 {
     public partial class Confirmation : Page
     {
-        public string PageTitle => "Payment Confirmation";
+        public string PageTitle => "Payment Confirmed";
         /*public string Price { get; set; }
         public string Size { get; set; }
 
