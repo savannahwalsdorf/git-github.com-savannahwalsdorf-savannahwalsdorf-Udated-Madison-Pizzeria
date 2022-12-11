@@ -154,9 +154,10 @@ namespace WebApplication2
                 this.ingredient.Specialty = TheHouse.Value;
             }
 
-                     string _params = string.Format("Price={0}&Size={1}&Crust={2}&Sauce={3}&Cheese={4}&Topping={5}&Specialty={6}", this.ingredient.Total_Price, this.ingredient.Size, this.ingredient.Crust,
-                this.ingredient.Sauce, this.ingredient.Cheese, this.ingredient.Topping, this.ingredient.Specialty);
-                     Response.Redirect(string.Format("Cart.aspx?{0}", _params));
+            string _params = string.Format("Price={0}&Size={1}&Crust={2}&Sauce={3}&Cheese={4}&Topping={5}&Specialty={6}", 
+                this.ingredient.Total_Price, this.ingredient.Size, this.ingredient.Crust, this.ingredient.Sauce, 
+                this.ingredient.Cheese, this.ingredient.Topping, this.ingredient.Specialty);
+            Response.Redirect(string.Format("Cart.aspx?{0}", _params));
        
         }
 
