@@ -99,6 +99,6 @@
 			</h5><br>
 
 			<!-- Place order button-->
-			<input type="submit" value="Place Order" class="button-custom" />
+			<asp:Button ID="PlaceOrder" Text="Place Order" runat="server" PostBackUrl="~/Confirmation.aspx" CssClass="cart-btn-custom"/>
 		</div>
 </asp:Content>
